@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.neu.hzm.Factory</OriginalElement>
+  <nodes>
+    <node x="93.875" y="81.0">com.neu.hzm.Factory.Factory</node>
+    <node x="141.0" y="162.0">com.neu.hzm.Factory.BenzeFactory</node>
+    <node x="0.0" y="81.0">com.neu.hzm.Factory.BMW</node>
+    <node x="17.0" y="165.0">com.neu.hzm.Factory.BmwFactory</node>
+    <node x="198.75" y="81.0">com.neu.hzm.Factory.Benze</node>
+    <node x="106.625" y="0.0">com.neu.hzm.Factory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.neu.hzm.Factory.BmwFactory" target="com.neu.hzm.Factory.BMW">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.neu.hzm.Factory.BenzeFactory" target="com.neu.hzm.Factory.Benze">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.neu.hzm.Factory.BmwFactory" target="com.neu.hzm.Factory.Factory">
+      <point x="26.0" y="-15.5" />
+      <point x="95.0" y="137.0" />
+      <point x="112.875" y="137.0" />
+      <point x="-19.0" y="15.5" />
+    </edge>
+    <edge source="com.neu.hzm.Factory.BenzeFactory" target="com.neu.hzm.Factory.Factory">
+      <point x="-27.75" y="-15.5" />
+      <point x="168.75" y="137.0" />
+      <point x="150.875" y="137.0" />
+      <point x="19.0" y="15.5" />
+    </edge>
+    <edge source="com.neu.hzm.Factory.BMW" target="com.neu.hzm.Factory.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="33.0" y="56.0" />
+      <point x="120.125" y="56.0" />
+      <point x="-13.5" y="15.5" />
+    </edge>
+    <edge source="com.neu.hzm.Factory.Benze" target="com.neu.hzm.Factory.Car">
+      <point x="0.0" y="-15.5" />
+      <point x="233.25" y="56.0" />
+      <point x="147.125" y="56.0" />
+      <point x="13.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="134.0" y="97.0" />
+  <SelectedNodes>
+    <node>com.neu.hzm.Factory.BmwFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
